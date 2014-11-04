@@ -8,7 +8,11 @@ Getting started
 
 1. Fork this repo (only one fork / pair)
 2. Clone your fork locally
-3. Do stuff, commit, and push to your fork
+3. `cd plog`
+4. Install dependencies `bundle install`
+5. Launch the server `rerun rackup`
+6. See your app at `http://localhost:9292/about`
+7. Do stuff, commit, and push to your fork
 
 Definitions
 -----------
