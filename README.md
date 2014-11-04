@@ -13,13 +13,13 @@ Getting started
 Definitions
 -----------
 
-**Log**  
-Quelques phrases qui résument le travail, et les découvertes d'un binôme. L'écriture d'un *Log* vient conclure une séance de travail en binôme. Donc à priori chaque binôme devrait produire à minima un *Log* par jour.
-Un *Log* peut répondre à une/aux question-s suivante-s:
-  * qu' avons nous appris pendant cette séance qui nous étais inconnu hier?
-  * observation de quelque chose à améliorer dans notre manière de travailler
-  * observation de quelque chose qui fonctionne bien dans notre bînome et qu'il faut faire perdurer
-  * ...
+### Log
+Quelques phrases qui résument le travail, les découvertes et les retours d'expérience d'un binôme. L'écriture d'un *Log* vient conclure une séance de travail en binôme. Donc à priori chaque binôme produit au moins un *Log* par jour.  
+Un *Log* peut répondre à l'une ou plusieurs des questions suivantes:  
+  * qu' avons nous fait/appris pendant cette séance qui nous étais inconnu hier ?
+  * quelle ressource nous a été utile qui pourrais nous servir plus tard ou servir à d'autres binômes ?
+  * qu'est ce qui a entravé le bon fonctionnement de notre binôme ? qu'est-ce qu'il faudra éviter de reproduire à l'avenir ?
+  * qu'est ce qui a bien fonctionné dans notre binôme et qu'il faut faire perdurer, développer d'avantage ?
 
 Features
 --------
