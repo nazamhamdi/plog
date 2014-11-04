@@ -13,7 +13,7 @@ Getting started
 Definitions
 -----------
 
-**Log**
+**Log**  
 Quelques phrases qui résument le travail, et les découvertes d'un binôme. L'écriture d'un *Log* vient conclure une séance de travail en binôme. Donc à priori chaque binôme devrait produire à minima un *Log* par jour.
 Un *Log* peut répondre à une/aux question-s suivante-s:
   * qu' avons nous appris pendant cette séance qui nous étais inconnu hier?
