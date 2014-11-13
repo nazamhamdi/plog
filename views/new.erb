@@ -1,0 +1,10 @@
+	<form class="form-inline" role="form" action="/new" method="post" accept-charset="utf-8">
+		Nom<input type="text" name="post[name]">
+	    Votre Message <textarea name="post[message]" rows="3" cols="40"></textarea>
+	    <p>Heure <%= Time.now.strftime('%d %m  %Y %H:%M') %>.</p>
+	 <a style="margin-top:7px;" class="btn btn-lg btn-primary" type"boutton" href="/">Retour</a>
+	    <input class="btn btn-lg btn-primary" type="submit" value="validez" href="/new" />
+	    
+     </form>
+
+     

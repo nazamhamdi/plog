@@ -1,10 +1,36 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <title>pLog</title>
-  </head>
-  <body>
-    <%= yield %>
-  </body>
+<head>
+ <meta charset="utf-8">
+   <title>PLog</title>
+   <link rel="stylesheet" type="text/css" href="views/bootstrap.css"/>
+   <link rel="stylesheet" type="text/css" href="views/plog.css"/>
+ </head>
+ <body>
+		    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		        <div class="container">
+		            <div class="collapse navbar-collapse test1" id="bs-example-navbar-collapse-1">
+		                <ul class="nav navbar-nav padbut">
+		                    <li><a href="http://www.simplon-village.com">Simplon-Village</a></li>
+		                    <li><a href="https://github.com/nazamhamdi/plog#plog">Plog</a></li>
+		                </ul>
+		            </div>
+		        </div>
+		    </nav>
+		    <div class="container">
+			  <center>  <div class="hero-unit"><h1> Notre premier blog</h1></div></center>
+		    </div>
+		    <a class="btn btn-lg btn-primary" href="/new" role="button">Nouveau message</a>
+
+		         <%= yield %>
+
+		    <div class="container contact">
+		       <section class="row footer">
+		          <div class="col-lg-12 logofoot">
+		             <center><p>Naziha & Christopher © Simplon Village 2014.</p></center>
+		          </div>
+		        </section>
+		   </div>
+
+ </body>
 </html>

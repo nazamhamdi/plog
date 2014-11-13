@@ -1,6 +1,14 @@
-<h1> Notre premier plog</h1>
-<p>
-  <a href='https://github.com/nazamhamdi/plog#plog'>pLog</a>
-</p>
-<!--img src='/me_reading_the_plog.gif' alt='My happy face while reading the pLog' />
-<em>So many logs to read :)</em>
+	<!--form action="/about" method ="post" accept-charset="utf-8">
+		<label>Nom<input type="text" name="titre"></label>
+		<label>Message<input type="text" name="message"></label>
+		<input type="submit" value="submit">
+	</form!-->
+
+
+<center><h2>Nos Messages</h2></center>
+<% @title.each do |newposte| %>
+<p><%= newposte.name %></p>
+<p><%= newposte.message %></p>
+<p><%= newposte.created_at %><br>
+<a href="/edit">Modifier</a> <a href="/del">Supprimmer</a></p>
+<% end %>

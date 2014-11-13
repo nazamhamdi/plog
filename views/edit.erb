@@ -1,0 +1,14 @@
+<!--<section><form action="/plog/<%= @plogs.id %>" method="post" accept-charset="utf-8">
+	<input name="_method" type="hidden" value="put" />
+	   <p>Nom <input type="text" name="message[name]" value="<%= @plogs.name %>" id="message[name]" /></p>
+			<p>Message: <textarea name="message[body]" rows="3" cols="40"><%= @plogs.body %></textarea></p>
+			<p>Heure <%= #Time.now.strftime('%d %m  %Y %H:%M:%S') %>.</p>
+			<a class="btn btn-lg btn-primary" type"boutton" href="/log">Retour</a>
+			<p><input class="btn btn-lg btn-primary" type="submit" value="Validez !" /></p>
+			</form>
+</section>-->
+
+<form action="/posts/<%= @post.id %>" method="post" accept-charset="utf-8">
+<input name="_method" type="hidden" value="put" />
+<p><textarea name="post[message]"><%= @post.message %></textarea></p>
+</form>
