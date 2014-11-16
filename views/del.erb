@@ -1,0 +1,7 @@
+<form action="/posts/<%= @post.id %>" method="post">
+	<p><textarea name="post[message]"><%= @post.message %></textarea></p>
+	<input type="hidden" name="_method" value="delete" />
+	<input class="btn btn-lg btn-danger" type="submit" value="Delete">
+	<a href="/" class="btn btn-default btn-lg">Retour</a>
+	
+</form>

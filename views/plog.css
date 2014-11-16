@@ -1,12 +1,6 @@
-.navbar-fixed-top 
+h1
 {
-    max-height: 340px;
-}
-.navbtn .btnnav
- {
-	margin-top: 15px;
-	margin-bottom: 15px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-    
-}
+	padding-top: 150px;
+	color: greenyellow;
+     padding-top: 50px;
+ }
